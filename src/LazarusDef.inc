@@ -220,6 +220,41 @@ begin
   handleExceptionEnd
 end;
 
+//CLASSMETHOD:
+function Clipboard_GetTextBuf(AObj: TClipboard; Buffer: PChar; BufSize: Integer): Integer; extdecl;
+begin
+  handleExceptionBegin
+  Result :=  AObj.GetTextBuf(Buffer, BufSize);
+  handleExceptionEnd
+end;
+
+function Clipboard_GetAsText(AObj: TClipboard): PChar; extdecl;
+begin
+  handleExceptionBegin
+  Result :=  PChar(AObj.AsText);
+  handleExceptionEnd
+end;
+
+procedure Clipboard_SetAsText(AObj: TClipboard; AValue: PChar); extdecl;
+begin
+  handleExceptionBegin
+  AObj.AsText := AValue;
+  handleExceptionEnd
+end;
+
+//CLASSMETHOD:
+function Clipboard_GetAsHtml(AObj: TClipboard; ExtractFragmentOnly: LongBool): PChar; extdecl;
+begin
+  handleExceptionBegin
+  Result :=  PChar(AObj.GetAsHtml(ExtractFragmentOnly));
+  handleExceptionEnd
+end;
+
+function DPredefinedClipboardFormat(AFormat: TPredefinedClipboardFormat): TClipboardFormat; extdecl;
+begin
+  Result := PredefinedClipboardFormat(AFormat);
+end;
+
 function DSetClipboard(ANewClipboard: TClipboard): TClipboard; extdecl;
 begin
   handleExceptionBegin
@@ -1248,6 +1283,11 @@ exports
   // TClipboard
   Clipboard_Instance,
   Clipboard_HasFormat,
+  Clipboard_GetTextBuf,
+  Clipboard_GetAsText,
+  Clipboard_SetAsText,
+  Clipboard_GetAsHtml,
+  DPredefinedClipboardFormat,
   DSetClipboard,
 
 
