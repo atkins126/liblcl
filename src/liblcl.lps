@@ -207,8 +207,9 @@
       <Unit0>
         <Filename Value="liblcl.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="35"/>
-        <CursorPos X="10" Y="54"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="15"/>
+        <CursorPos X="6" Y="26"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -729,7 +730,6 @@
       </Unit68>
       <Unit69>
         <Filename Value="MyLCL_DateTimePicker.inc"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="925"/>
         <CursorPos X="95" Y="947"/>
@@ -3348,7 +3348,7 @@
     <OtherDefines Count="1">
       <Define0 Value="USED_BY_LAZLOGGER_DUMMY"/>
     </OtherDefines>
-    <JumpHistory Count="20" HistoryIndex="19">
+    <JumpHistory Count="18" HistoryIndex="17">
       <Position1>
         <Filename Value="ugoform.pas"/>
         <Caret Line="183" Column="36" TopLine="164"/>
@@ -3398,37 +3398,29 @@
         <Caret Line="54" Column="10" TopLine="35"/>
       </Position12>
       <Position13>
-        <Filename Value="uexport2.pas"/>
-        <Caret TopLine="6"/>
-      </Position13>
-      <Position14>
         <Filename Value="liblcl.lpr"/>
         <Caret Line="54" Column="10" TopLine="35"/>
+      </Position13>
+      <Position14>
+        <Filename Value="MyLCL_DateTimePicker.inc"/>
+        <Caret Line="1877" Column="27" TopLine="1859"/>
       </Position14>
       <Position15>
-        <Filename Value="uexport2.pas"/>
-        <Caret TopLine="6"/>
+        <Filename Value="MyLCL_DateTimePicker.inc"/>
+        <Caret Line="1866" Column="18" TopLine="1859"/>
       </Position15>
       <Position16>
         <Filename Value="MyLCL_DateTimePicker.inc"/>
-        <Caret Line="1877" Column="27" TopLine="1859"/>
+        <Caret Line="1864" Column="18" TopLine="1857"/>
       </Position16>
       <Position17>
         <Filename Value="MyLCL_DateTimePicker.inc"/>
-        <Caret Line="1866" Column="18" TopLine="1859"/>
+        <Caret Line="998" Column="26" TopLine="981"/>
       </Position17>
       <Position18>
         <Filename Value="MyLCL_DateTimePicker.inc"/>
-        <Caret Line="1864" Column="18" TopLine="1857"/>
-      </Position18>
-      <Position19>
-        <Filename Value="MyLCL_DateTimePicker.inc"/>
-        <Caret Line="998" Column="26" TopLine="981"/>
-      </Position19>
-      <Position20>
-        <Filename Value="MyLCL_DateTimePicker.inc"/>
         <Caret Line="945" Column="32" TopLine="925"/>
-      </Position20>
+      </Position18>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
